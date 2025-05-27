@@ -11,6 +11,15 @@ import type { ContactMessage, Project, Skill, Experience } from "@/lib/types"
 import { formatDate } from "@/lib/utils"
 import { useToast } from "@/hooks/use-toast"
 import { PhotoUpload } from "@/components/photo-upload"
+import { createClient } from '@supabase/supabase-js';
+
+const supabaseUrl = process.env.SUPABASE_URL;
+const supabaseAnonKey = process.env.SUPABASE_ANON_KEY;
+
+if (!supabaseUrl) {
+  throw new Error('supabaseUrl is required.');
+}
+
 
 export default function AdminPage() {
   const [messages, setMessages] = useState<ContactMessage[]>([])
@@ -333,3 +342,5 @@ export default function AdminPage() {
     </div>
   )
 }
+
+export const supabase = createClient(supabaseUrl, supabaseAnonKey!);
