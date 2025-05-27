@@ -10,16 +10,13 @@ import type { ContactMessage, Project, Skill, Experience } from "@/lib/types"
 import { formatDate } from "@/lib/utils"
 import { useToast } from "@/hooks/use-toast"
 import { PhotoUpload } from "@/components/photo-upload"
-import { createClient } from '@supabase/supabase-js'
 import { supabase } from "@/lib/supabase"
-
-if (!supabase) {
-  // maybe show an error page or redirect
-  throw new Error("Supabase client not initialized")
-}
+import { createClient } from '@supabase/supabase-js'
 
 
-export default function AdminPage() {
+
+
+export default async function AdminPage() {
   const [messages, setMessages] = useState<ContactMessage[]>([])
   const [projects, setProjects] = useState<Project[]>([])
   const [skills, setSkills] = useState<Skill[]>([])
