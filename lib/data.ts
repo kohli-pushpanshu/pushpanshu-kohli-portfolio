@@ -16,10 +16,21 @@ export const userData = {
 export const projectsData = [
   {
     id: 1,
+    title: "Authentication",
+    description: "This is project to verify email using nextAuth",
+    long_description: "",
+    image_url: "/placeholder.svg?height=400&width=600",
+    demo_url: "#",
+    github_url: "https://github.com/kohli-pushpanshu/verifyEmail",
+    technologies: [],
+    featured: false,
+  },
+  {
+    id: 2,
     title: "Projects coming soon",
     description: "I am currently working on full stack projects and will update here once completed.",
     long_description: "",
-    image_url: "/placeholder.svg?height=400&width=600",
+    image_url: "/verificaton.png?height=200&width=400",
     demo_url: "#",
     github_url: "https://github.com/kohli-pushpanshu",
     technologies: [],
