@@ -28,10 +28,10 @@ export const projectsData = [
   {
     id: 2,
     title: "Ghostwhispher",
-    description: "it is a anonymous message app where yu can send message to other but you identity remains anonymous. this is a fulstack product with approx 100 users",
+    description: "it is a anonymous message app where yu can send message to other but you identity remains anonymous. this is a fulstack product built using Next.js, Tailwind CSS, and PostgreSQL.",
     long_description: "",
     image_url: "/whispher.png",
-    demo_url: "https://ghostwhisper-iv3cacy0q-pushpanshugujjar-gmailcoms-projects.vercel.app/",
+    demo_url: "https://ghostwhisper-b5ykls53e-pushpanshugujjar-gmailcoms-projects.vercel.app/",
     github_url: "https://github.com/kohli-pushpanshu/ghostwhisper",
     technologies: [],
     featured: false,
