@@ -38,6 +38,28 @@ export const projectsData = [
   },
   {
     id: 3,
+    title: "Gyst-club",
+    description: "GYST Club Website – Built a full-stack club site using Next.js, TypeScript, Resend, and PostgreSQL with email features and dynamic content",
+    long_description: "",
+    image_url: "/gyst.png",
+    demo_url: "https://gyst-club.vercel.app/",
+    github_url: "https://github.com/kohli-pushpanshu/gyst-club",
+    technologies: [],
+    featured: false,
+  },
+  {
+    id: 4,
+    title: "Activity Tracker(Intership Project)",
+    description: "Activity Tracker (Internship Project) – Next.js, TypeScript, Resend, PostgreSQL, AI Built a full-stack web app to log daily activities and analyze productivity using AI; implemented email features and dynamic content.",
+    long_description: "",
+    image_url: "/activity-tracker.png",
+    demo_url: "#",
+    github_url: "https://github.com/kohli-pushpanshu",
+    technologies: [],
+    featured: true,
+  },
+    {
+    id: 5,
     title: "Projects coming soon",
     description: "I am currently working on full stack projects and will update here once completed.",
     long_description: "",
@@ -46,7 +68,8 @@ export const projectsData = [
     github_url: "https://github.com/kohli-pushpanshu",
     technologies: [],
     featured: false,
-  }
+  },
+
 ]
 
 export const skillsData = [
@@ -58,21 +81,23 @@ export const skillsData = [
   { id: 6, name: "Tailwind CSS", category: "frontend", proficiency: 90, icon_name: "Paintbrush" },
   { id: 7, name: "PostgreSQL", category: "backend", proficiency: 80, icon_name: "Database" },
   { id: 8, name: "Prisma ORM", category: "backend", proficiency: 80, icon_name: "DatabaseZap" },
-  { id: 9, name: "Git", category: "tools", proficiency: 75, icon_name: "GitBranch" },
+  { id: 9, name: "MongoDB", category: "backend", proficiency: 80, icon_name: "Database" },
+  { id: 10, name: "Git", category: "tools", proficiency: 75, icon_name: "GitBranch" },
 ]
 
 
 export const experiencesData = [
-  {
-    id: 1,
-    company: "NextGen Product Lab",
-    position: "Full Stack Intern",
-    description:
-      "Currently working on a full stack product using Next.js, Tailwind CSS, and PostgreSQL. Responsible for building UI components, managing backend logic with Prisma, and integrating database models. Actively collaborating with the development team to ship production-ready features.",
-    start_date: "2025-05-01",
-    end_date: null,
-    location: "Remote",
-  },
+{
+  id: 1,
+  company: "NextGen Product Lab",
+  position: "Full Stack Intern",
+  description:
+    "Worked on a full-stack web application using Next.js, TypeScript, Tailwind CSS, and PostgreSQL. Developed responsive UI components, implemented backend logic using Prisma ORM, and designed database models. Collaborated with the development team to ship production-ready features and improve overall application performance.",
+  start_date: "2025-06-01",
+  end_date: "2025-07-03",
+  location: "Dualite, Kanpur",
+}
+,
   {
     id: 2,
     company: "Summer Training Program",
