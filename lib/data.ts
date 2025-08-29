@@ -9,7 +9,7 @@ export const userData = {
   phone: "+91 9557432384",
   github_url: "https://github.com/kohli-pushpanshu",
   linkedin_url: "https://www.linkedin.com/in/pushpanshu-kohli-2065772ba/",
-  resume_url: "/resume.pdf",
+  resume_url: "%PUBLIC_URL%/resume.pdf",
 }
 
 
@@ -19,7 +19,7 @@ export const projectsData = [
     title: "Authentication",
     description: "This is project to verify email using nextAuth",
     long_description: "",
-    image_url: "/Verificaton.png?height=400&width=600",
+    image_url: "%PUBLIC_URL%/Verificaton.png?height=400&width=600",
     demo_url: "https://verify-email-4jraj9th8-pushpanshugujjar-gmailcoms-projects.vercel.app",
     github_url: "https://github.com/kohli-pushpanshu/verifyEmail",
     technologies: [],
@@ -30,7 +30,7 @@ export const projectsData = [
     title: "Ghostwhispher",
     description: "it is a anonymous message app where yu can send message to other but you identity remains anonymous. this is a fulstack product built using Next.js, Tailwind CSS, and PostgreSQL.",
     long_description: "",
-    image_url: "/whispher.png",
+    image_url: "%PUBLIC_URL%/whispher.png",
     demo_url: "https://www.codewithkohli.tech/",
     github_url: "https://github.com/kohli-pushpanshu/ghostwhisper",
     technologies: [],
@@ -63,7 +63,7 @@ export const projectsData = [
     title: "Projects coming soon",
     description: "I am currently working on full stack projects and will update here once completed.",
     long_description: "",
-    image_url: "/placeholder.png?height=50&width=400",
+    image_url: "%PUBLIC_URL%/placeholder.png?height=50&width=400",
     demo_url: "#",
     github_url: "https://github.com/kohli-pushpanshu",
     technologies: [],
